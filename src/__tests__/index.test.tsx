@@ -25,7 +25,7 @@ describe('Deep Link Handler', () => {
   test('add link handler', () => {
     const mockHandler = jest.fn();
     deepLinkHandler.addLinkHandler(mockHandler);
-    // deepLinkHandler.stopHandlingLinksAutomatically();
+    deepLinkHandler.stopHandlingLinksAutomatically();
 
     const linkToAdd = 'https://example.com';
     deepLinkHandler.addLink(linkToAdd);
