@@ -1,6 +1,6 @@
 {
   "name": "react-native-deep-link-handler",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Handle deep links",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
