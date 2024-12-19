@@ -1,5 +1,3 @@
-import DeepLinkHandler from './NativeDeepLinkHandler';
+import { deepLinkHandler } from './DeepLinkHandlerClass';
 
-export function multiply(a: number, b: number): number {
-  return DeepLinkHandler.multiply(a, b);
-}
+export { deepLinkHandler };

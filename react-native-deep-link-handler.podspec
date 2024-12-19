@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => min_ios_version_supported }
-  s.source       = { :git => "https://github.com/4-2-7/react-native-deep-link-handler.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/bug427/react-native-deep-link-handler.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,cpp}"
 

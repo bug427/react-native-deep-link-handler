@@ -11,13 +11,7 @@ npm install react-native-deep-link-handler
 ## Usage
 
 
-```js
-import { multiply } from 'react-native-deep-link-handler';
-
-// ...
-
-const result = multiply(3, 7);
-```
+<!-- TODO: add usage -->
 
 
 ## Contributing
